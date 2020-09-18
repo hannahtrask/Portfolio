@@ -14,8 +14,6 @@ let sheetAsJSON =
 	'https://spreadsheets.google.com/feeds/list/1ZLt9vCIk7jeJkFNivzKThYBwhRwlu3JCcRIsmAKSKzk/od6/public/values?alt=json';
 
 
-
-
 //////EMAILS from emailJS API
 ///vanilla JS
             window.onload = () => {
@@ -95,8 +93,6 @@ nextButton.addEventListener('click', event => {
 })
 
 ///////////////////////////////////////////
-//PROJECT CAROUSEL
-///////////////////////
 
 $.ajax({ url: sheetAsJSON }).then((data) => {
 	//this logs to check I've called the data
