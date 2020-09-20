@@ -215,6 +215,31 @@ span {
 }
 
 
+/***** Technologies ***********/
+.technologies {
+    padding: 50px;
+}
+
+.technologies-list {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.tech {
+    font-size: .4em;
+    /* text-align: left; */
+    padding-top:10px;
+}
+
+i {
+    padding: 10px;
+    font-size: 50px;
+}
+
 /*********PROJECTS SECTION*********/
 
 /*****  project title ********/

@@ -122,6 +122,10 @@
     border-radius: 45%;
     bordeR: 2px solid rgb(157, 129, 137, .8)
 }
+
+    i {
+        font-size: 60px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -158,6 +162,10 @@
    span {
        display: inline;
    }
+
+    i {
+        font-size: 100px;
+    }
 
     #input-email {
         width: 40%;
